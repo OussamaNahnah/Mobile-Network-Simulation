@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="900.0" style="-fx-background-color: #00FFFA;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Pane layoutX="200.0" prefHeight="700.0" prefWidth="700.0" style="-fx-background-color: ffff;">
+         <children>
+            <Pane fx:id="space" prefHeight="700.0" prefWidth="700.0" />
+            <Pane fx:id="lines" prefHeight="700.0" prefWidth="700.0" />
+            <Canvas fx:id="lineCall" height="700.0" width="700.0" />
+         </children></Pane>
+      <Pane layoutY="392.0" prefHeight="310.0" prefWidth="200.0">
+         <children>
+            <TextField fx:id="nbre_SBs" layoutX="25.0" layoutY="42.0" prefHeight="26.0" prefWidth="158.0" />
+            <Label layoutX="25.0" layoutY="24.0" text="number of base stations" />
+            <Label layoutX="25.0" layoutY="132.0" text="speed" />
+            <Slider fx:id="speed" layoutX="25.0" layoutY="152.0" prefHeight="16.0" prefWidth="158.0" />
+            <TextField fx:id="nbre_nodes" layoutX="25.0" layoutY="94.0" prefHeight="26.0" prefWidth="158.0" />
+            <Label layoutX="25.0" layoutY="78.0" text="number of nodes" />
+            <Button fx:id="apply" layoutX="25.0" layoutY="203.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="158.0" text="Apply" />
+            <Button fx:id="makeCall" layoutX="25.0" layoutY="250.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="158.0" text="Make Call" />
+         </children>
+      </Pane>
+      <TextArea id="log" fx:id="log" layoutY="700.0" prefHeight="200.0" prefWidth="900.0" />
+   </children>
+</Pane>

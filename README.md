@@ -1,6 +1,6 @@
 ## Mobile-Network-Simulation
 
-Simulation of the work of the telephone network using JavaFX
+Mobile network simulation using JavaFX
 
 ## Tools used
 - JAVA-FX+FXML
